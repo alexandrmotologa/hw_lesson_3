@@ -12,8 +12,7 @@ while n >= 0:
     print(n)
     n -= 1
 
-# de la 10 la 0, cifrele invers intr'un rand cu spatiu
-# fara spatiu print(n, end="")
+# de la 10 la 0, cifrele invers intr'un rand
 n = 10
 
 while n >= 0:
