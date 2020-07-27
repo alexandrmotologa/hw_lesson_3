@@ -3,7 +3,7 @@ sum = 0
 nr_input = 0
 av_value = 0
 
-print("")
+print("+  =  "*30)
 print("Introduceti cate un numar pozitiv intreg (pentru iesire tastati orice litera)")
 print("*numerele negative si numerele zecimale vor fi excluse din calcul")
 
@@ -23,3 +23,4 @@ print("Suma numerelor introduse este: ", sum)
 print("Au fost introduse " + str(nr_input) + " valori")
 print("Media aritmetica a valorilor introduse: " + str(int(av_value)))
 print("Media aritmetica (cu virgula) a valorilor introduse: " + str(round(av_value, 2)))
+print("+  =  "*30)
