@@ -19,9 +19,9 @@ while pin_try <= 3:
     pin_try += 1
     if user_pin == CLIENT_SECRET_PIN:
         print("WELCOME " + CLIENT_FULL_NAME + ".")
-        break;
+        break
     elif pin_try == 3:
         print("YOUR CARD IS BLOCKED. PLEASE CALL SUPPORT OF " + BANK_NAME)
-        break;
+        break
     elif user_pin != CLIENT_SECRET_PIN:
         print("INCORRECT PIN. VERIFY YOUR PIN")
