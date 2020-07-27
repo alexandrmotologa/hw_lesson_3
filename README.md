@@ -1,2 +1,2 @@
-# hw_while_counting
-hw_while_counting
+# hw_lesson_3
+hw_lesson_3
